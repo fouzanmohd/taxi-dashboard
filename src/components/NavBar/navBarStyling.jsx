@@ -1,0 +1,54 @@
+import styled from "styled-components";
+export const Nav = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  .title {
+    h1 {
+      span {
+        color: #ffc107;
+        marging-left: 0.5rem;
+        letter-spacing: 0.2rem;
+        font-family: "Permanent Marker", cursive;
+      }
+    }
+  }
+  .search {
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 8rem 1rem 1rem;
+    border-radius: 1rem;
+    svg {
+      color: #ffc107;
+    }
+    input {
+      background-color: transparent;
+      border: none;
+      color: #ffc107;
+      font-family: "Permanent Marker", cursive;
+      letter-spacing: 0.3rem;
+      &::placeholder {
+        color: #ffc107;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  @media screen and (min-width:280px) and (max-width:1080px){
+    flex-direction:column;
+    .title{
+      h1,h4{
+        text-align:center;
+        span{
+          display:block;
+          margin:1rem 0;
+        }
+      }
+    }
+  }
+`;
+
