@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# About Tax-Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is made using ReactJS and styled using Styled-component library.
+
+A responsive taxi analytics dashboard - https://fouzanmohd.github.io/taxi-dashboard/
+
 
 ## Available Scripts
 
