@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/taxi-dashboard/static/css/main.2df04ba2.css",
+    "main.js": "/taxi-dashboard/static/js/main.14ab5d15.js",
+    "static/media/avatarImage.jpg": "/taxi-dashboard/static/media/avatarImage.ae4b29de097a01b6c0a7.jpg",
+    "index.html": "/taxi-dashboard/index.html",
+    "main.2df04ba2.css.map": "/taxi-dashboard/static/css/main.2df04ba2.css.map",
+    "main.14ab5d15.js.map": "/taxi-dashboard/static/js/main.14ab5d15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2df04ba2.css",
+    "static/js/main.14ab5d15.js"
+  ]
+}
